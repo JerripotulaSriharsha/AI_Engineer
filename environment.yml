@@ -1,0 +1,25 @@
+name: ai_engineer
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - poppler      # System dependency for PDF processing
+  - tesseract    # OCR engine for text extraction from images
+  - pip
+  - pip:
+    - langchain
+    - langchain-core
+    - langchain-openai
+    - langchain-groq
+    - openai
+    - groq
+    - python-dotenv
+    - unstructured[all-docs]
+    - pillow
+    - lxml
+    - opencv-python-headless
+    - pdf2image
+    - pytesseract
+    - tiktoken
+    - chromadb
