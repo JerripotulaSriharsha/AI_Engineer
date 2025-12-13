@@ -1,6 +1,6 @@
 # New Project
 
-Basic Python project scaffold.
+Upskilling 
 
 ## Setup
 python -m venv .venv
