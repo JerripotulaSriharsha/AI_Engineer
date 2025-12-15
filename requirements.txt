@@ -17,3 +17,4 @@ pdf2image
 pytesseract
 tiktoken
 chromadb
+huggingface_hub
