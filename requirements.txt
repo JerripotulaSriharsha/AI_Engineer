@@ -18,3 +18,4 @@ pytesseract
 tiktoken
 chromadb
 huggingface_hub
+sklearn
