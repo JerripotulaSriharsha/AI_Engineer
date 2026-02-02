@@ -34,7 +34,7 @@ model = ChatOpenAI(temperature=0.7, model="gpt-4o-mini")
 # Output parser
 output_parser = StrOutputParser()
 
-# ✅ Chain with RunnableLambda (not plain lambda)
+# ✅ Chain with RunnableLambda (not plain lambda
 chain = (prompt
     | model
     | output_parser)
